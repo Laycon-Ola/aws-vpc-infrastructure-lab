@@ -7,9 +7,8 @@ gateway, define the routes, structure it in your own manner, create
 security group that gives access to HTTPS, rdp,ssh and a custom port of
 9186 named \"nineoneeightsix\" and attach it to the VPC, also create a
 network acl for public subnet that allows port 556, ensure that tags are
-properly written and then document everything done with
-pictures/screenshots Also include an architectural diagram of the entire
-system.
+properly written and then document everything done with pictures/screenshots Also include an architectural diagram of the entire
+system.     
 
 **Part B**
 
@@ -21,9 +20,9 @@ minikube installed. All Ec2 in the public subnets must be tagged with a
 name and also a key value pair of Subnet:(public/private). And also
 another tag of environronment dev. same thing for private subnets but an
 environment tag of production. The AMI for the ec2 in the public subnet
-must be Amazon linux and the AMI for private subnet must be debian.
+must be Amazon linux and the AMI for private subnet must be Debian.
 Ensure screenshots are taken all through the process as each individual
-will take present their technical documentation and how they went about
+will present their technical documentation and how they went about
 with the solution.
 
 **STEP 1: I enabled the closest region to Nigeria to minimize latency.**
@@ -75,7 +74,7 @@ failure.**
 
 ![](media/image16.png)
 
-![](media/image17.png)
+![](media/image17.png) 
 
 **STEP 7: Associated each NAT gateway with the route table per AZ to
 enable my EC2 instances in my private subnet access to the internet.**
